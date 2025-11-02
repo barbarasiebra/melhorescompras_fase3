@@ -1,3 +1,4 @@
+DESAFIO 2: Conhecer as categorias de produtos que possuem mais chamados
 SELECT
     cp.cd_categoria,
     cp.tp_categoria,
@@ -19,4 +20,5 @@ GROUP BY
     cp.dt_termino,
     cp.st_categoria
 ORDER BY 
+
     cp.cd_categoria;
