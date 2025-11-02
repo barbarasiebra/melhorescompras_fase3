@@ -1,4 +1,4 @@
-
+Desafio 1: Criação de um bloco anônimo em Oracle PL/SQL:
 DECLARE
     CURSOR c_sac_detalhado IS
         SELECT 
@@ -91,3 +91,4 @@ END;
  
 
     
+
